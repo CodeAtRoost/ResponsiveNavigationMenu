@@ -1,5 +1,5 @@
 {
-	"name": "codewander-responsive-menu",
+	"name": "ResponsiveNaigationMenu",
 	"description": "Responsive menu to include sheet navigation, external links or other app navigation based on any condition",
 	"type": "visualization",
 	"version": "1.0.0",
