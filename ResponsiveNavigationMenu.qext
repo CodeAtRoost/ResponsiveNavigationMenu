@@ -1,0 +1,14 @@
+{
+	"name": "codewander-responsive-menu",
+	"description": "Responsive menu to include sheet navigation, external links or other app navigation based on any condition",
+	"type": "visualization",
+	"version": "1.0.0",
+	"author": "codewander",
+	"homepage": "codewander.com",
+	"keywords": "qlik-sense, visualization",
+	"license": "",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}
