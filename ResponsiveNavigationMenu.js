@@ -62,12 +62,14 @@ define( ["qlik", "text!./template.html",'text!./style.css'],
 			controller: ['$scope','$element', function ( $scope, $element ) {
 				$(document).ready(function(){
 				
-					if ( angular.element('.qvt-sheet').children('#myTopnav_large').length==0 ) {						
+					//if ( angular.element('.qvt-sheet').children('#myTopnav_large').length==0 ) {						
+							$('.qvt-sheet').children('#myTopnav_large').remove()
 							$('#myTopnav_large').prependTo($('.qvt-sheet'))
-						}		
-					if ( angular.element('.qvt-sheet').children('#myTopnav_small').length==0 ) {						
+						//}		
+					//if ( angular.element('.qvt-sheet').children('#myTopnav_small').length==0 ) {						
+							$('qs-header').children('#myTopnav_small').remove()
 							$('#myTopnav_small').appendTo($('.qs-header'))
-						}		
+						//}		
 				});
 				$scope.menuNav= function(){				
 					var x = document.getElementById("myTopnav");
